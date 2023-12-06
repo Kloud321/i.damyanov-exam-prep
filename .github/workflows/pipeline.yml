@@ -41,7 +41,7 @@ jobs:
           api-key: ${{ secrets.MY_RENDER_API_KEY }}
 
   run-ui-test:
-    needs: build-test
+    needs: deploy
 
     runs-on: ubuntu-latest
 
