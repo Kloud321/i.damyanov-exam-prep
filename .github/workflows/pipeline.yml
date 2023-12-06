@@ -27,3 +27,5 @@ jobs:
   
     - name: run unit test for application
       run: npm run test:unit
+    - name: Display sofutni username
+      run: echo "i.damyanov"
